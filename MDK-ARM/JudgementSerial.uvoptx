@@ -190,7 +190,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>/</Name>
+          <Name>p|?p觚vp|?</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -259,6 +259,16 @@
           <count>9</count>
           <WinNumber>1</WinNumber>
           <ItemText>tx_buf</ItemText>
+        </Ww>
+        <Ww>
+          <count>10</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>UART4-&gt;DR</ItemText>
+        </Ww>
+        <Ww>
+          <count>11</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>pc_recv_mesg</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>

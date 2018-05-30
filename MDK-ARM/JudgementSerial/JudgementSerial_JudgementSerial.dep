@@ -39,7 +39,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A3AD092)
-F (../Src/freertos.c)(0x5B0BBF11)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\freertos.o --omf_browse judgementserial\freertos.crf --depend judgementserial\freertos.d)
+F (../Src/freertos.c)(0x5B0EA2A9)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\freertos.o --omf_browse judgementserial\freertos.crf --depend judgementserial\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A3AD097)
 I (C:\ProgramFilesMine\Keil514\ARM\ARMCC\include\stddef.h)(0x57F606B8)
 I (C:\ProgramFilesMine\Keil514\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -94,7 +94,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A3AD097)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A3AD097)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A3AD097)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A3AD097)
-I (..\app\task_communicate.h)(0x5B0D29AC)
+I (..\app\task_communicate.h)(0x5B0E9B4D)
 I (../Inc/sys.h)(0x5A58BEF4)
 I (..\XJTURMlib\data_fifo.h)(0x5AA136DB)
 I (..\XJTURMlib\protocol.h)(0x5AAF7437)
@@ -223,7 +223,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A3AD092)
-F (../Src/stm32f4xx_it.c)(0x5B0BB08F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\stm32f4xx_it.o --omf_browse judgementserial\stm32f4xx_it.crf --depend judgementserial\stm32f4xx_it.d)
+F (../Src/stm32f4xx_it.c)(0x5B0EA241)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\stm32f4xx_it.o --omf_browse judgementserial\stm32f4xx_it.crf --depend judgementserial\stm32f4xx_it.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A3AD091)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5B0BA244)
 I (../Inc/main.h)(0x5B0BA244)
@@ -281,7 +281,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A3AD097)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A3AD097)
 I (../Inc/bsp_usart.h)(0x5B0BB155)
 I (../Inc/sys.h)(0x5A58BEF4)
-I (..\app\task_communicate.h)(0x5B0D29AC)
+I (..\app\task_communicate.h)(0x5B0E9B4D)
 I (..\XJTURMlib\data_fifo.h)(0x5AA136DB)
 I (..\XJTURMlib\protocol.h)(0x5AAF7437)
 F (../Src/main.c)(0x5B0BA244)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\main.o --omf_browse judgementserial\main.crf --depend judgementserial\main.d)
@@ -342,7 +342,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A3AD097
 I (../Inc/dma.h)(0x5B0BA241)
 I (../Inc/usart.h)(0x5B0BA242)
 I (../Inc/gpio.h)(0x5B0BA240)
-I (..\app\task_communicate.h)(0x5B0D29AC)
+I (..\app\task_communicate.h)(0x5B0E9B4D)
 I (../Inc/sys.h)(0x5A58BEF4)
 I (..\XJTURMlib\data_fifo.h)(0x5AA136DB)
 I (..\XJTURMlib\protocol.h)(0x5AAF7437)
@@ -1799,8 +1799,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A3AD092)
-F (..\app\task_communicate.c)(0x5B0D5B9F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\task_communicate.o --omf_browse judgementserial\task_communicate.crf --depend judgementserial\task_communicate.d)
-I (..\app\task_communicate.h)(0x5B0D29AC)
+F (..\app\task_communicate.c)(0x5B0EA647)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\XJTURMlib -I ..\app -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy --C99-IC:\Users\adayimaxiga\Desktop\裁判系统串口\MDK-ARM\RTE\_JudgementSerial-IC:\ProgramFilesMine\Keil514\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\ProgramFilesMine\Keil514\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F405xx -DUSE_FULL_LL_DRIVER -DSTM32F405xx -DUSE_HAL_DRIVER --C99-o judgementserial\task_communicate.o --omf_browse judgementserial\task_communicate.crf --depend judgementserial\task_communicate.d)
+I (..\app\task_communicate.h)(0x5B0E9B4D)
 I (../Inc/sys.h)(0x5A58BEF4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A3AD091)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5B0BA244)
@@ -1903,7 +1903,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A3AD092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A3AD092)
-I (..\app\task_communicate.h)(0x5B0D29AC)
+I (..\app\task_communicate.h)(0x5B0E9B4D)
 I (..\XJTURMlib\data_fifo.h)(0x5AA136DB)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5A3AD097)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A3AD097)

@@ -199,8 +199,9 @@ void DMA1_Stream2_IRQHandler(void)
 void DMA1_Stream4_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA1_Stream4_IRQn 0 */
-	LL_DMA_ClearFlag_HT4(DMA1);
 	LL_DMA_ClearFlag_TC4(DMA1);
+	LL_DMA_DisableStream(DMA1, LL_DMA_STREAM_4);
+	computer_usart.tx_finish_flag=1;
   /* USER CODE END DMA1_Stream4_IRQn 0 */
   
   /* USER CODE BEGIN DMA1_Stream4_IRQn 1 */

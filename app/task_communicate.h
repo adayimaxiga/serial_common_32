@@ -113,9 +113,11 @@ typedef enum
   GIMBAL_CTRL_ID      = 0x00A1,
 	
 //------------------步兵字段：0x1??? ---------------------
-	INFANRY_BIG_SURPRISE_ID	= 0x1000,
-	INFANRY_AUTO_SHOOT_ID		= 0x1001,
-
+	INFANTRY_BUFF_ID	= 0x1000,
+	INFANTRY_ENEMY_ID		= 0x1001,
+	
+	//上发部分
+	INFANTRY_SHOOT_MODE_ID		= 0x10A1,
 //------------------英雄字段：0x2??? ---------------------
 	HERO_AUTO_SHOOT_ID			= 0x2000,
 
@@ -162,11 +164,24 @@ typedef __packed struct
   chassis_rotate_t w_info;    /* rotation control of chassis */
 } chassis_ctrl_t;
 
+typedef __packed struct {
+  int32_t enemy_dist;
+  int32_t enemy_yaw;      /* gimbal pitch reference angle(degree) */
+  int32_t enemy_pitch;      /* gimbal yaw reference angle(degree) */
+  int32_t mode; /* visual information valid or not */
+}GimbalShootControl;
+
+typedef __packed struct {
+  int32_t mode; /* visual information valid or not */
+}GimbalMode;
+
 typedef struct
 {
   /* data receive */
-  gimbal_ctrl_t        gimbal_control_data;
+//  gimbal_ctrl_t        gimbal_control_data;
 	chassis_ctrl_t       chassis_control_data;
+	GimbalShootControl   gimbal_enemy_data;
+	GimbalShootControl   gimbal_buff_data;
 	
 	//增加协议在这里添加
 	

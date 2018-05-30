@@ -104,7 +104,7 @@ void computer_uart_init(void)
   pc_rx_obj.buff[0] = pc_dma_rxbuff[0];
   pc_rx_obj.buff[1] = pc_dma_rxbuff[1];
 	
-  /* initial pc data unpack object */
+  /* initial pc data unpack object */ 
   pc_unpack_obj.data_fifo = &pc_rxdata_fifo;
   pc_unpack_obj.p_header = (frame_header_t *)pc_unpack_obj.protocol_packet;
   pc_unpack_obj.index = 0;
@@ -166,18 +166,18 @@ void pc_data_handler(uint8_t *p_frame)
   
   switch (cmd_id)
   {
-    case GIMBAL_CTRL_ID:
-      memcpy(&pc_recv_mesg.gimbal_control_data, data_addr, data_length);
-    break;
 		
 		case CHASSIS_CTRL_ID:
       memcpy(&pc_recv_mesg.chassis_control_data, data_addr, data_length);
     break;
-		case INFANRY_BIG_SURPRISE_ID:
+		
+		case INFANTRY_BUFF_ID:
+			memcpy(&pc_recv_mesg.gimbal_buff_data, data_addr, data_length);
 			
 		break;
-		case INFANRY_AUTO_SHOOT_ID:
-			
+		case INFANTRY_ENEMY_ID:
+			memcpy(&pc_recv_mesg.gimbal_enemy_data, data_addr, data_length);
+
 		break;
 		case HERO_AUTO_SHOOT_ID:
 			

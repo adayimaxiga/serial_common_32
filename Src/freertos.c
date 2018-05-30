@@ -63,6 +63,7 @@ osThreadId LEDHandle;
 osThreadId pc_unpack_task_t;
 osThreadId judge_unpack_task_t;
 client_show_data_t client_show_data;
+GimbalMode gimbal_mode_data;
 /* USER CODE END Variables */
 
 /* Function prototypes -------------------------------------------------------*/
@@ -123,13 +124,13 @@ void LEDTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-
-		client_show_data.data1+=1;
+		gimbal_mode_data.mode = 0;
+		client_show_data.data1+=1; 
 		client_show_data.data2+=2;
 		client_show_data.data3+=3;
 		client_show_data.data4=!client_show_data.data4;
-		data_packet_pack(ROBOT_TO_CLIENT_ID, (uint8_t *)&client_show_data,sizeof(client_show_data), DN_REG_ID);
-		osSignalSet(judge_unpack_task_t, UART_TX_SIGNAL);
+		data_packet_pack(INFANTRY_SHOOT_MODE_ID, (uint8_t *)&gimbal_mode_data,sizeof(gimbal_mode_data), UP_REG_ID);
+		osSignalSet(pc_unpack_task_t, UART_TX_SIGNAL);
     osDelay(100);
   }
   /* USER CODE END LEDTask */
