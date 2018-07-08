@@ -1,5 +1,2 @@
-*.mxproject
-*.scratch
-*.bat
 *.o
 !keilkilll.bat
